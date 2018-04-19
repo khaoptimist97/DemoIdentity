@@ -29,7 +29,7 @@ namespace DemoASP_Identity
                 Credentials = new NetworkCredential("minhkha791140@gmail.com", "Aspirine97"),
                 EnableSsl = true,
             };
-            var from = new MailAddress("minhkha791140@gmail.com", "Minh Kha");
+            var from = new MailAddress("minhkha791140@gmail.com", "Nguyễn Kha");
             var to = new MailAddress(message.Destination);
 
             var mail = new MailMessage(from, to)
